@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(135deg, #ffc0cb, #ffe4ec);
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+    background: none;
+    color: inherit;
+    font: inherit;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.yes-wrapper {
+    background-color: green;
+}
+
+.no-wrapper {
+    background-color: red;
+}

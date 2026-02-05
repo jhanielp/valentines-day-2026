@@ -1,0 +1,29 @@
+button {
+    min-width: 200px;
+    width: auto;
+    padding: 24px 32px;
+    white-space: nowrap;
+    color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    transition: all 0.3s ease; /* smooth scaling */
+}
+
+/* Tablet (iPad) */
+@media (max-width: 1024px) {
+    button {
+        padding: 20px 28px;
+        font-size: 26px;
+        min-width: 150px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    button {
+        width: 100%; /* take full width */
+        padding: 16px 20px;
+        font-size: 22px;
+        min-width: unset; /* remove min-width to allow full width */
+    }
+}
